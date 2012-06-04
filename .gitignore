@@ -1,0 +1,6 @@
+.installed.cfg
+bin
+develop-eggs
+nens_geoserver_scripts.egg-info
+*.pyc
+parts

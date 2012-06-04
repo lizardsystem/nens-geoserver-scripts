@@ -9,6 +9,7 @@ long_description = '\n\n'.join([
         ])
 
 install_requires = [
+    'gsconfig',
     ]
 
 setup(name='nens-geoserver-scripts',
@@ -25,7 +26,8 @@ setup(name='nens-geoserver-scripts',
       include_package_data=True,
       zip_safe=False,
       install_requires=install_requires,
-      entry_points="""
-      # -*- Entry points: -*-
-      """,
+      entry_points={
+        'console_scripts': [
+            ]
+        },
       )
