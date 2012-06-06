@@ -25,6 +25,7 @@ CONFIG_FILE = os.path.expanduser(_args.configfile)
 
 CONFIG = {}
 
+
 def read_config_file():
     parser = ConfigParser.ConfigParser()
     parser.read(CONFIG_FILE)
@@ -33,6 +34,7 @@ def read_config_file():
         CONFIG[section] = dict(parser.items(section))
 
 read_config_file()
+
 
 def get():
     if _args.server in CONFIG:
