@@ -5,3 +5,5 @@ Changelog of nens-geoserver-scripts
 ----------------
 
 - Setup a working buildout and some documentation.
+
+- Added a 'ping_server' command, mainly for testing.
