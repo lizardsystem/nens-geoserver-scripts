@@ -28,7 +28,7 @@ setup(name='nens-geoserver-scripts',
       install_requires=install_requires,
       entry_points={
         'console_scripts': [
-            'ping_server = nens_geoserver_scripts.ping_server:main',
+            'workspace = nens_geoserver_scripts.workspace:main',
             ]
         },
       )
