@@ -35,7 +35,7 @@ def main():
             print "No workspaces found."
         else:
             print "%d workspaces found:" % (len(workspaces),)
-            for workspace in workspaces:
+            for workspace in sorted(workspaces, key=lambda x: x.name):
                 print "    {0}".format(workspace.name)
 
 if __name__ == '__main__':
