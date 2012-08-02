@@ -31,7 +31,7 @@ def hack_httplib():
         url = urllib.quote(url, safe=':/')
         return old_request(self, url, *args, **kwargs)
     Http.request = request
-hack_httplib()
+##hack_httplib()  # Solved in gsconfig 0.6.0
 
 
 def get_arg_parser(description=None):
