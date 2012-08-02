@@ -74,7 +74,7 @@ def get():
         options = config[server]
 
         return {
-            'url': options.get('url', ''),
+            'service_url': options.get('url', ''),
             'username': options.get('username', ''),
             'password': options.get('password', ''),
             }

@@ -9,7 +9,7 @@ long_description = '\n\n'.join([
         ])
 
 install_requires = [
-    'gsconfig',
+    'gsconfig >= 0.6.0',
     ]
 
 setup(name='nens-geoserver-scripts',
